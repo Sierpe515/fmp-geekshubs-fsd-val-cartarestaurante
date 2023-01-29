@@ -27,24 +27,20 @@ body {
 }
 
 .box1-1 {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     height: 25vh;
     width: 15vw;
     border-radius: 25px;
-}
-
-.photo1 {
-    /* position: relative;
-    z-index: -1; */
+    position: relative;
 }
 
 .box1-2 {
-    background-color: green;
+    /* background-color: green; */
     height: 25vh;
 }
 
 .box1-3 {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     height: 25vh;
 }
 
@@ -81,24 +77,24 @@ body {
 }
 
 .box3-1 {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     height: 25vh;
 }
 
 .box3-2 {
-    background-color: brown;
+    /* background-color: brown; */
     height: 25vh;
 }
 
 .box3-3 {
-    background-color: peru;
+    /* background-color: peru; */
     height: 25vh;
 }
 
 /* Parte inferior */
 
 .box7 {
-    background-color: pink;
+    /* background-color: pink; */
     height: 25vh;
 }
 
@@ -112,7 +108,7 @@ body {
 }
 
 .box9 {
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .latbox {
@@ -122,5 +118,6 @@ body {
 .photos {
     height: 25vh;
     width: 15vw;
-    box-shadow: 20px 20px 40px black;
+    box-shadow: 20px 20px 40px black, -20px -20px 40px black;
+    border: 3px groove black;
 }
