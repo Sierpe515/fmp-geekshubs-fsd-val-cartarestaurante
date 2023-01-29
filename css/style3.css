@@ -6,7 +6,7 @@
 }
 
 .row {
-    gap: 10px;
+    margin-right: 4px;
 }
 
 .title {
@@ -28,48 +28,84 @@
     margin-bottom: 20px;
 }
 
-.dish {
-    height: 350px;
-    margin-top: 20px;
-}
-
 .dishphoto {
-    height: 100%;
-    width: 100%;
+    /* height: 20vh; */
+    width: 45vw;
     border: 2px solid black;
 }
 
-.dish1 {
-    /* background-color: yellow; */
+.dish {
+    margin-bottom: 10px;
 }
 
 .disha {
-    padding: 30px;
+    /* height: 20vh; */
+    width: 45vw;
+    padding: 5px;
     color: black;
-    font-size: large;
+    font-size: smaller;
     background-image: url(../img/4c8xmGs.jpg);
     display: flex;
     flex-direction: column;
     border: 2px solid black;
 }
 
-.dish1a {
-    background-color: antiquewhite;
-    /* background-image: url(../img/HD-wallpaper-old-paper-texture-paper-backgrounds-paper-textures-old-paper-brown-paper-background-paper-design-retro-paper-background.jpg); */
+.dishatext {
+    font-size: xx-small;
+    font-weight: normal;
 }
 
-@media (min-width:992px) {
-    
+@media (min-width:576px) {
+
+    .row {
+        width: 100vw;
+        padding: 0px;
+    }
+
     .title {
-        width: 70vw;
+        width: 100vw;
     }
 
     .starters {
-        width: 70vw;
+        width: 100vw;
     }
 
     .dish {
-        width: 25vw;
+        width: 20vw;
+        padding: 0px;
+        float: right;
+    }
+
+    .dishphoto {
+        /* height: 30vh; */
+        width: 20vw;
+        border: 2px solid black;
+        padding: 0px;
+        float: right;
+    }
+
+    .disha {
+        /* height: 30vh; */
+        width: 20vh;
+        padding: 0px;
     }
     
+}
+
+@media (min-width:992px) {
+
+    .row {
+        padding: 0px;
+    }
+
+    .dishphoto {
+        height: 30vh;
+        width: 20vw;
+        border: 2px solid black;
+        float: right;
+    }
+    
+    .disha {
+        height: 30vh;
+    }
 }

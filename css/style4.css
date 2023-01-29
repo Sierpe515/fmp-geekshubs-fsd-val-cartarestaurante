@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+}
+
+.box {
+    background-image: url(../img/homepage_tavern_background.jpg);
+    height: 100vh;
+}
+
+.contacttitle {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+}
+
+.pictureleft {
+    display: none;
+    height: 80vh;
+}
+
+.contactform {
+    height: 80vh;
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+.sylimg {
+    position: absolute;
+    height: 60vh;
+}
+
+@media (min-width:768px) {
+    .pictureleft {
+        display: block;
+    }
+}
+
+@media (min-width:992px) {
+
+    .pictureleft {
+        display: block;
+    }
+}
