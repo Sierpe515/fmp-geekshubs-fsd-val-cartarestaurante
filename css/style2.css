@@ -11,4 +11,40 @@
     .box {
         background-image: url(../img/homebg.png);
     }
+
+    .welcometext {
+        position: absolute;
+        left: 50;
+        top: 20%;
+        z-index: 1;
+        font-size: xx-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        color: aliceblue;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    .welcometext1 {
+        position: absolute;
+        left: 50;
+        top: 25%;
+        z-index: 1;
+        font-size: x-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        color: aliceblue;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    .welcometext2 {
+        position: absolute;
+        left: 50;
+        top: 30%;
+        z-index: 1;
+        font-size: xx-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        color: rgb(95, 95, 95);
+        text-shadow: 1px 1px 3px black;
+    }
 }

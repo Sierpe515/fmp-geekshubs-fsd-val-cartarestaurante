@@ -1,0 +1,75 @@
+.box {
+    background-image: url(../img/im7hp6b7e4t31.png);
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row {
+    gap: 10px;
+}
+
+.title {
+    /* background-color: pink; */
+    height: 100px;
+    width: 100vw;
+    padding-top: 5vh;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+
+.starters {
+    /* background-color: aquamarine; */
+    height: 5vh;
+    padding-top: 1vh;
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.dish {
+    height: 350px;
+    margin-top: 20px;
+}
+
+.dishphoto {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.dish1 {
+    /* background-color: yellow; */
+}
+
+.disha {
+    padding: 30px;
+    color: black;
+    font-size: large;
+    background-image: url(../img/4c8xmGs.jpg);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.dish1a {
+    background-color: antiquewhite;
+    /* background-image: url(../img/HD-wallpaper-old-paper-texture-paper-backgrounds-paper-textures-old-paper-brown-paper-background-paper-design-retro-paper-background.jpg); */
+}
+
+@media (min-width:992px) {
+    
+    .title {
+        width: 70vw;
+    }
+
+    .starters {
+        width: 70vw;
+    }
+
+    .dish {
+        width: 25vw;
+    }
+    
+}

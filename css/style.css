@@ -1,7 +1,3 @@
-body {
-    /* background-color: red; */
-}
-
 .box {
     background-image: url(../img/homebgsmall.jpg);
     background-size: cover;
@@ -11,7 +7,6 @@ body {
 /* Parte superior */
 
 .bigbox {
-    /* background-color: olive; */
     height: 75%;
 }
 
@@ -22,30 +17,22 @@ body {
 /* Lateral izquierdo */
 
 .box1 {
-    /* background-color: yellow; */
     height: 75vh;
 }
 
 .box1-1 {
-    /* background-color: greenyellow; */
     height: 25vh;
-    width: 15vw;
-    border-radius: 25px;
-    position: relative;
 }
 
 .box1-2 {
-    /* background-color: green; */
     height: 25vh;
 }
 
 .box1-3 {
-    /* background-color: lightgreen; */
     height: 25vh;
 }
 
 .box2 {
-    /* background-color: orange; */
     height: 75vh;
 }
 
@@ -56,6 +43,13 @@ body {
     border: 0px solid rgba(255, 255, 255, 0) !important;
 }
 
+.dp-btn:hover {
+    background-color: rgba(255, 255, 255, 0.308) !important;
+    box-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+
+/* Boxcentral */
+
 .menuicon {
     height: 100px;
 }
@@ -65,41 +59,86 @@ body {
     height: 50%;
 }
 
-.deathwing {
+.welcometext {
+    position: absolute;
+    left: 50;
+    top: 25%;
+    z-index: 1;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px black;
+}
+
+.welcometext:hover {
+    color: rgb(167, 167, 167);
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+}
+
+.welcometext1 {
+    position: absolute;
+    left: 50;
+    top: 30%;
+    z-index: 1;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px black;
+}
+
+.welcometext1:hover {
+    color: rgb(167, 167, 167);
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+}
+
+.welcometext2 {
+    position: absolute;
+    left: 50;
+    top: 35%;
+    z-index: 1;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(95, 95, 95);
+    text-shadow: 1px 1px 3px black;
+}
+
+.welcometext2:hover {
+    color: rgb(167, 167, 167);
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+}
+
+.wowlogo {
     width: 40%;
 }
 
 /* Lateral derecho */
 
 .box3 {
-    /* background-color: red; */
     height: 75vh;
 }
 
 .box3-1 {
-    /* background-color: burlywood; */
     height: 25vh;
 }
 
 .box3-2 {
-    /* background-color: brown; */
     height: 25vh;
 }
 
 .box3-3 {
-    /* background-color: peru; */
     height: 25vh;
 }
 
 /* Parte inferior */
 
 .box7 {
-    /* background-color: pink; */
     height: 25vh;
 }
 
 .box8 {
-    /* background-color: plum; */
     height: 25vh;
 }
 
@@ -107,9 +146,7 @@ body {
     height: 25vh;
 }
 
-.box9 {
-    /* background-color: purple; */
-}
+/* General */
 
 .latbox {
     display: none;
@@ -120,4 +157,9 @@ body {
     width: 15vw;
     box-shadow: 20px 20px 40px black, -20px -20px 40px black;
     border: 3px groove black;
+}
+
+.photos:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 40px white, -10px -10px 40px white;
 }
