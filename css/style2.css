@@ -1,7 +1,14 @@
-@media (min-width:576px) {
+@media (min-width:992px) {
     
     .latbox {
         display: block;
     }
 
+    .biglatbox {
+        display: block;
+    }
+
+    .box {
+        background-image: url(../img/homebg.png);
+    }
 }
