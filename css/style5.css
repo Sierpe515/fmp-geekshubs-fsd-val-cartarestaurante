@@ -1,3 +1,23 @@
+.box {
+    background-image: url(../img/homepage_tavern_background.jpg);
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 10px grey, -3px -3px 10px grey;
+    height: 15vh;
+}
+
+.reserv-box {
+    background-color: rgba(128, 128, 128, 0.473);
+    height: 60vh;
+    border-radius: 10px;
+    color: white;
+}
+
 /* Dropdown */
 
 .dp-btn {

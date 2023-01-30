@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reserva</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,15 +26,80 @@
               <img class="menuicon" src="../img/hsicon.png" alt="">
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Carta</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="../index.html">Home</a></li>
+              <li><a class="dropdown-item" href="../pages/menu.html">Carta</a></li>
+              <li><a class="dropdown-item" href="../pages/drinks.html">Bebidas</a></li>
+              <li><a class="dropdown-item" href="../pages/contact.html">Contacto</a></li>
             </ul>
           </div>  
           <div class="col-12 title text-center">Reserva</div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-12 text-center reserv-box"></div>
+            <div class="col-5 reserv-box">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su nombre o su alias">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Indique su buzón más cercano">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Teléfono:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Este objeto no existe en Azeroth">
+            </div>
+            <div class="form-group pt-1 mb-3">
+              <div for="reservation">Fecha de la reserva:</div>
+              <input type="date" class="form-control" id="reservation">
+            </div>
+            <div class="mb-3">
+              <div for="reservation">Hora de la reserva:</div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Selecione la hora de su reserva</option>
+                <option value="1">12:00</option>
+                <option value="2">12:30</option>
+                <option value="3">13:00</option>
+                <option value="4">13:30</option>
+                <option value="5">14:00</option>
+                <option value="6">14:30</option>
+                <option value="7">15:00</option>
+                <option value="8">15:30</option>
+                <option value="9">20:00</option>
+                <option value="10">20:30</option>
+                <option value="11">21:00</option>
+                <option value="12">21:30</option>
+                <option value="13">22:00</option>
+                <option value="14">22:30</option>
+                <option value="15">23:00</option>
+                <option value="16">23:30</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div for="reservation">Miembros del grupo:</div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Selecione el número de comensales</option>
+                <option value="1">1 miembro del grupo</option>
+                <option value="2">2 miembros del grupo</option>
+                <option value="3">3 miembros del grupo</option>
+                <option value="4">4 miembros del grupo</option>
+                <option value="5">5 miembros del grupo</option>
+                <option value="6">6 miembros del grupo</option>
+                <option value="7">7 miembros del grupo</option>
+                <option value="8">8 miembros del grupo</option>
+                <option value="9">9 miembros del grupo</option>
+                <option value="10">10 miembros del grupo</option>
+                <option value="11">11 miembros del grupo</option>
+                <option value="12">12 miembros del grupo</option>
+                <option value="13">13 miembros del grupo</option>
+                <option value="14">14 miembros del grupo</option>
+                <option value="15">15 miembros del grupo</option>
+                <option value="16">16 miembros del grupo</option>
+              </select>
+            </div>
+            <div class="col-auto d-flex justify-content-center">
+              <a class="btn btn-primary" href="./Noreserv.html" role="button">Reserva</a>
+            </div>
+            </div>
         </div>
     </div>
 </body>

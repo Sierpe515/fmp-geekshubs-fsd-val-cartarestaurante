@@ -15,22 +15,27 @@ body {
     font-size: xxx-large;
     color: white;
     text-shadow: 3px 3px 10px grey, -3px -3px 10px grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pictureleft {
     display: none;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .contactform {
-    height: 80vh;
+    /* height: 80vh; */
     background-color: rgba(128, 128, 128, 0.473);
     color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
 }
 
-.sylimg {
+.innkimg {
     position: absolute;
-    height: 60vh;
+    height: 70vh;
+    left: 10vw;
+    bottom: 15vh;
 }
 
 /* Dropdown */
@@ -53,11 +58,35 @@ body {
     .pictureleft {
         display: block;
     }
+
+    .innkimg {
+        position: absolute;
+        height: 50vh;
+        left: 0vw;
+        bottom: 10vh;
+    }
 }
 
 @media (min-width:992px) {
 
     .pictureleft {
         display: block;
+    }
+
+    .innkimg {
+        position: absolute;
+        height: 70vh;
+        left: 10vw;
+        bottom: 10vh;
+    }
+}
+
+@media (min-width:1492px) {
+
+    .innkimg {
+        position: absolute;
+        height: 80vh;
+        left: 15vw;
+        bottom: 10vh;
     }
 }

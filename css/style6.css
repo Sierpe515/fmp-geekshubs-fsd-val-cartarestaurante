@@ -1,0 +1,70 @@
+body {
+    background-color: aquamarine;
+}
+
+.box {
+    background-image: url(../img/bg-noreserve3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-margin {
+    height: 40vh;
+}
+
+.box2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+
+@media (min-width:576px) {
+    
+    .box {
+        background-image: url(../img/bg-noreserve2.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .box {
+        background-image: url(../img/bg-noreserve1.png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    .box {
+        background-image: url(../img/bg-noreserve.png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+}
