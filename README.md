@@ -63,6 +63,9 @@ Como se aprecia en las imágenes, se han realizado bocetos de cada página antes
 ### Licencia
 
 La licencia utilizada es una Creative Commons Legal Code.
+Para la realización de este trabajo académico se han utilizado imagenes pertenecientes a "World of Warcraft" y "Hearthstone", propiedad de Blizzar Entertaiment.
+Además de imágenes para la decoración de la web, también se han extraido las fotos de las cartas y recetas de "El libro de Cocina de World of Warcraft".
+Del mismo modo se ha dotado a las distintas páginas con un audio que reproduce la canción propia de la taverna de Hearthstone.
 
 ***
 
