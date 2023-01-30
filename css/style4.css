@@ -20,11 +20,9 @@ body {
 
 .pictureleft {
     display: none;
-    /* height: 80vh; */
 }
 
 .contactform {
-    /* height: 80vh; */
     background-color: rgba(128, 128, 128, 0.473);
     color: white;
     box-shadow: 5px 5px 10px black;
