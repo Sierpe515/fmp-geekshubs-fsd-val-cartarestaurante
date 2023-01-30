@@ -13,6 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: xxx-large;
+    color: white;
+    text-shadow: 3px 3px 10px grey, -3px -3px 10px grey;
 }
 
 .pictureleft {
@@ -23,11 +25,28 @@ body {
 .contactform {
     height: 80vh;
     background-color: rgba(128, 128, 128, 0.473);
+    color: white;
 }
 
 .sylimg {
     position: absolute;
     height: 60vh;
+}
+
+/* Dropdown */
+
+.dp-btn {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0px solid rgba(255, 255, 255, 0) !important;
+}
+    
+.dp-btn:hover {
+    background-color: rgba(255, 255, 255, 0.308) !important;
+    box-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+
+.menuicon {
+    height: 100px;
 }
 
 @media (min-width:768px) {
