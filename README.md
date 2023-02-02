@@ -18,7 +18,7 @@ Carta de Resturante
 
 ### Cómo se lanza
 
-El lanzamiento de está que replica la videoconsola portátil Steam Deck es muy sencillo. Únicamente abre el archivo index.html en tu navegador o accede a ella a traves del enlace: https://sierpe515.github.io/fmp-geekshubs-fsd-val-cartarestaurante/
+El lanzamiento de reproducción de la página web de un restaurante digital es muy sencillo. Únicamente abre el archivo index.html en tu navegador o accede a ella a traves del enlace: https://sierpe515.github.io/fmp-geekshubs-fsd-val-cartarestaurante/
 
 ***
 
